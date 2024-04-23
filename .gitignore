@@ -1,0 +1,8 @@
+### Java ###
+# Compiled class file
+*.class
+
+### Intellij ###
+.idea/
+/out/
+*.iml
