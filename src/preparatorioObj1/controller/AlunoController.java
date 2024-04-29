@@ -1,7 +1,5 @@
 package preparatorioObj1.controller;
 
-import obj1.exer2.model.Funcionario;
-import obj1.exer2.model.Produto;
 import preparatorioObj1.model.Aluno;
 
 import java.util.*;
