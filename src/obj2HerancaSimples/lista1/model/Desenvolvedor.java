@@ -12,8 +12,7 @@ public class Desenvolvedor extends Funcionario{
 
     @Override
     public Double getBonus(){
-//        System.out.println("Bonus de desenvolvedor: " + (this.getSalario() * 0.5));
-        return getSalario() * 0.5;
+        return getSalario() * 0.05;
     }
 
 

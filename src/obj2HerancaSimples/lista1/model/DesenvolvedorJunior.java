@@ -10,10 +10,13 @@ public class DesenvolvedorJunior extends Desenvolvedor{
 
     @Override
     public Double getBonus() {
-        return this.getSalario() * 0.5; //2b.iii junior recebem 5% de bônus
+        return this.getSalario() * 0.05; //2b.iii junior recebem 5% de bônus
     }
 
     public String toString() {
-        return "\nDesenvolvedorJunior{nome: " +getNome() +", salario:" + getSalario()+"}";
+        return "\nDesenvolvedorJunior{"+
+                "nome: " +getNome() +
+                ", salario:" + getSalario()+
+                "}";
     }
 }

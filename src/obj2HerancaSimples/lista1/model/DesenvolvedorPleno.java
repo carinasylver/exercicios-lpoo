@@ -11,11 +11,14 @@ public class DesenvolvedorPleno extends Desenvolvedor{
 
     @Override
     public Double getBonus() {
-        return this.getSalario() * 0.5; //2b.iii pleno recebem 5% de bônus
+        return this.getSalario() * 0.05; //2b.iii pleno recebem 5% de bônus
     }
 
     @Override
     public String toString() {
-        return "\nDesenvolvedorPleno{nome: " +getNome() +", salario:" + getSalario()+"}";
+        return "\nDesenvolvedorPleno{"+
+                "nome: " +getNome() +
+                ", salario:" + getSalario()+
+                "}";
     }
 }
